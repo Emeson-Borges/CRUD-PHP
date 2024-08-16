@@ -1,0 +1,50 @@
+# Ignorar arquivos de configuração do banco de dados (se houver)
+#config.php
+
+# Ignorar arquivos temporários e de cache
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# Ignorar diretórios temporários do PHP
+/var/
+tmp/
+
+# Ignorar diretórios e arquivos do sistema operacional
+Thumbs.db
+ehthumbs.db
+
+# Ignorar arquivos e diretórios do XAMPP
+/htdocs/
+xampp/
+
+# Ignorar arquivos do Composer
+/vendor/
+
+# Ignorar arquivos de IDE (ex.: Visual Studio Code, PhpStorm, etc.)
+.vscode/
+.idea/
+*.suo
+*.user
+*.sw?
+*.DS_Store
+*.phpstorm.meta.php
+*.phpunit.result.cache
+*.project
+
+# Ignorar arquivos de backup
+*.bak
+*.old
+
+# Ignorar diretórios temporários criados por editores
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar arquivos do sistema operacional
+*.log
+*.tmp
+*.pid
+*.seed
+*.pid.lock
